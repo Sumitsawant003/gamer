@@ -1,0 +1,17 @@
+.userbio_pen_logo{
+    position:absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.sp_bio:hover .userbio_pen_logo{
+    transition: 300ms;
+    opacity: 1;
+    cursor: pointer;
+}
+.close_bio_sp{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    cursor: pointer;
+}

@@ -1,0 +1,315 @@
+.header_section{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 0px white;
+    transition: 500ms;
+    z-index: 12;
+}
+
+.header_scroll{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    /* background: #371741; */
+    background: #171717;
+    /* box-shadow: 0px 0px 6px 0px #b6b6b6; */
+    box-shadow: 0px 0px 6px 0px #7f319d;
+    transition: 500ms;
+    z-index: 12;
+}
+
+.header_sec{
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+
+.head_link{
+    display: flex;
+    align-items: center;
+    padding: 7px 25px;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../assets/fonts/Gothvetica.ttf);
+  }
+
+.head_link a{
+
+    color: #ffffff;
+    /* color: #4F6140; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: 300ms;
+    font-weight: bolder;
+    font-family: myFirstFont;
+}
+
+
+
+
+
+
+.head_link a:hover{
+    transition: 300ms;
+    color: white;
+}
+.header_btn{
+    display: flex;
+    align-items: center;
+    width: 213px;
+    justify-content: center;
+}
+.header_btn img{
+    cursor: pointer;
+}
+.header_loing_line{
+    transform-origin: 0% 100% 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    height: 1px;
+    background: #ef0e3b;
+    width: 0px;
+    margin-left: -39px;
+    animation: linewid 200ms;
+    position: fixed;
+    right: 0;
+}
+.dis_width{
+    width: 111px;
+    transition: 300ms;
+}
+@keyframes linewid {
+    0%{
+        width: 0px;
+    }100%{
+        width: 111px;
+    }
+}
+.loginsvg{
+    width: 90px;
+    height: 35px;
+    transition: 500ms;
+}
+.loginsvgwid{
+    width: 0px;
+    height: 0px;
+    transition: 500ms;
+}
+
+.header_cross_btn{
+    position: fixed;
+    top: 20px;
+    right: 88px;
+    cursor: pointer;
+}
+.header_cross_btn span{
+    color: white;
+    font-size: 40px;
+}
+.newline_side{
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 1px;
+    background: #ef0e3b;
+    z-index: 15;
+    animation: newsideline 100ms  500ms;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes newsideline {
+    0%{
+        position: fixed;
+        height: 0vh;
+        width: 1px;
+        top: 0;
+        right: 0;
+    }100%{
+        position: fixed;
+        height: 100vh;
+        width: 1px;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+
+/* .header_btn button{
+    padding: 9px 23px;
+    background: #00000036;
+    
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+} */
+.burger{
+    display: none;
+    position: fixed;
+    top: 22px;
+    right: 25px;
+}
+
+
+.header_link_cont{
+    display: flex;
+}
+
+
+.loginpage{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(89deg,#351944 -15%,#531f59 53%,#351944); */
+    background: #171717;
+    /* background: #bd38ff; */
+    position: fixed;
+    z-index: 212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 0;
+    transition: 500ms;
+    left: 100%;
+}
+
+.loginpagewidthfull{
+    transition: 1s;
+    width: 100%;
+    left: 0%;
+    height: 100%;
+}
+
+.dis_none{
+    display: none;
+    /* transition: 1s; */
+}
+.animated_login_btn{
+    opacity: 0;
+    color: #ea4d5a;
+    padding: 0px 6px;
+    transition: 300ms;
+    width: 0px;
+    height: 2px;
+    transition: 500ms;
+}
+.btn_new{
+    background: black;
+    color: white;
+    /* border: 1px solid; */
+    border: none;
+    padding: 10px 40px;
+    border-radius: 24px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 300ms;
+
+}
+.btn_new:hover{
+    box-shadow: 0px 0px 4px 0px white;
+    transition: 300ms;
+}
+.h_ac_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+}
+.h_ac_img img{
+    width: 38px;
+    border-radius: 20px;
+
+}
+.h_ac_pername{
+    font-size: 21px;
+    padding: 8px;
+}
+.h_ac_dorpdown{
+    position: absolute;
+    background: #343434;
+    border-radius: 4px;
+    margin-top: 32px;
+    color: white;
+}
+.h_ac_dorpdown div{
+   padding: 13px 31px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.h_ac_dorpdown div:hover{
+   background-color: white;
+   transition: 300ms;
+   color: black;
+}
+
+
+@media (max-width:900px) {
+    .burger{
+        display: block;
+    }
+    .header_sec {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_link_cont{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .displaynone{
+        display: none;
+        transition: 500ms;
+    }
+   
+    .header_section{
+        background: linear-gradient(89deg,#351944 -15%,#531f59 53%,#351944);
+    }
+   
+
+
+    .burgerfirstchild {
+        width: 40px;
+        transform: rotate(317deg);
+        margin-top: 11px;
+        transition: 500ms;
+    }
+    .burgersecondchild {
+        display: none;
+        transition: 500ms;
+    }
+    .burgerfourchild {
+        display: none;
+        transition: 500ms;
+    }
+    .burgerthirdchild {
+        width: 40px;
+        transform: rotate(46deg);
+        margin-top: -7px;
+        transition: 500ms;
+    }
+    .burger div{
+        margin: 3px;
+        height: 5px;
+        width: 34px;
+        background-color: #ffffe8;
+        border-radius: 3px;
+    }
+
+ 
+    
+}

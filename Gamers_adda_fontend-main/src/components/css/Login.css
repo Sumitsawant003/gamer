@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.setloginback{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    rotate: 267deg;
+}
+.setloginback a span{
+    font-size: 40px;
+    color: white;
+}
+.l-section{
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+}
+.l-form-box{
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background: #4f1e5600;
+    /* border: 1px solid rgba(255,255,255,0.5); */
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 16px 0px #505050; */
+}
+.l-h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.l-inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.l-inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.l-inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.l-inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.l-forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.l-forget label input{
+    margin-right: 3px;
+    
+}
+.l-forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.l-forget label a:hover{
+    text-decoration: underline;
+}
+.l-button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.l-register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.l-register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.l-register p a:hover{
+    text-decoration: underline;
+}
+.loginloader{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+}
+#loginloader{
+    display: none;
+}
+.dis-flex{
+    display: flex;
+    justify-content: center;
+}
+.settestcontant{
+    margin-bottom: 0px;
+    padding: 15px;
+}
+.log_with_discord{
+    background: #2f3058;
+    width: 100%;
+    margin: 6px;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.log_with_discord:hover{
+    box-shadow: 0px 0px 10px 0px #2f3058;
+    transition: 300ms;
+}
+.log_with_discord img{
+    margin-right: 5px;
+}
+.log_with_google{
+    background: white;
+    width: 100%;
+    margin: 6px;
+    padding: 7px;
+    color: rgb(49, 49, 49);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 300ms;
+}
+.log_with_google:hover{
+    box-shadow: 0px 0px 10px 0px white;
+    transition: 300ms;
+}
+.log_with_google img{
+    margin-right: 5px;
+}
+
+@media (max-width: 520px){
+	.l-form-box {
+       
+        width: 340px;
+    }
+}
+
+@media (max-width: 450px){
+	.l-form-box {
+       
+        height: 380px;
+    }
+}
+
+@media (max-width: 400px){
+    .l-form-box {
+        width: 330px;
+    }
+}

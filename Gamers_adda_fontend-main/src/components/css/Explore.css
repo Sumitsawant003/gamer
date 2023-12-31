@@ -1,0 +1,181 @@
+.new_card_sec{
+    width: 400px;
+    margin: 20px;
+    background: white;
+    cursor: pointer;
+    transition: 300ms;
+}
+.new_card_sec:hover{
+    background-color: #dddddd;
+    transition: 300ms;
+}
+.new_card_para{
+    color: #4d1d55;
+    font-weight: 800;
+    padding: 6px;
+}
+.nc_contant{
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nc_line{
+    width: 100%;
+    height: 3px;
+    background: #ff2f2f;
+}
+.nc_low_bage{
+    text-align: end;
+    padding: 2px 13px;
+}
+.nc_low_bage img{
+    width: 30px;
+}
+
+.card_sponsor{
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 0px 0px 5px 0px #893994
+}
+.card_sponsor:hover{
+transition: 500ms;
+  box-shadow: 0px 0px 30px 0px #893994
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Ex_card_sec{
+    width: 300px;
+    margin: 20px;
+    background: #e1e1e1;
+    cursor: pointer;
+    transition: 200ms;
+}
+.pre_name_card{
+    background: #000000c7;
+    color: white;
+    margin-bottom: -26px;
+    position: relative;
+    width: 93px;
+    text-align: center;
+    border-bottom-right-radius: 7px;
+    padding: 2px;
+}
+.Card_name_holder{
+    display: flex;
+    align-items: flex-end;
+    margin-top: -54px;
+    padding: 6px;
+    background: #0000004a;
+    position: relative;
+    color: white;
+    transition: 400ms;
+}
+.Card_name_holder:hover{
+    
+    background: #000000ad;
+    transition: 400ms;
+}
+.Card_name_holder div{
+    margin-left: 5px;
+}
+.card_down_reactiong{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+    background: #77ff77;;
+    width: 100%;
+    color: #007e00;
+    font-weight: 900;
+}
+.card_down_reactiond{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+    background: #4affff;
+    width: 100%;
+    color: #00a1a1;
+    font-weight: 900;
+}
+.card_down_reactionp{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+    background: #fc4bff;
+    width: 100%;
+    color: #8500a7;
+    font-weight: 900;
+}
+
+
+<div className='Ex_card_sec'>
+<div className='pre_name_card'>
+  Sponsors
+</div>
+<div>
+  <img width={'100%'} src="https://staticg.sportskeeda.com/editor/2021/12/5c4c3-16392142872394-1920.jpg?w=840" alt="" />
+</div>
+<div className='Card_name_holder'>
+  <img width={50} src={logo} alt="" />
+  <div>
+    Gamer Adda
+  </div>
+</div>
+<div style={{ padding: '8px' }}>
+  <p style={{ margin: '0px' }}>Ready To Sponsor</p>
+  <p style={{ margin: '0px' }}>$100,000</p>
+</div>
+<div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+  <div className='card_down_reactiong'>
+    <span class="material-symbols-outlined">person</span>
+    <span>  40k</span>
+  </div>
+  <div className='card_down_reactiond'>
+    <span class="material-symbols-outlined">thumb_up</span>
+    <span>  40k</span>
+  </div>
+  <div className='card_down_reactionp'>
+    <span class="material-symbols-outlined">kid_star</span>
+    <span>40k</span>
+  </div>
+</div>
+</div> */

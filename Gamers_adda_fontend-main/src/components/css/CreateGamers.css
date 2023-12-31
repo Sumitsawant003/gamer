@@ -1,0 +1,20 @@
+.input_field{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 10px 44px;
+    width: 336px;
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+}
+.form_create_user{
+    text-align: center;
+    padding: 22px 12px;
+    box-shadow: 0px 0px 3px 0px white;
+    margin: 20px;
+    border-radius: 3px;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: rgb(255, 255, 255) !important;
+}

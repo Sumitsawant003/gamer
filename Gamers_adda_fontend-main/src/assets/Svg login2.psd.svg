@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="50" viewBox="0 0 100 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #f41a00;
+       font-family: 'Nunito', sans-serif;
+      }
+    </style>
+  </defs>
+  <text id="Login" class="cls-1" x="25" y="30">Login</text>
+  <image width="100" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyCAYAAACqNX6+AAAAr0lEQVR4nO3cMQ4CMQwAQYeWH8D/n8YPoA79XYt0izRTpvTKSuf1fsyeg/trr+Mbv/d5rtPsb+bcIkiMIDGCxKy9T/8KF7IhMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBIjSIwgMYLECBLj+MyFHJ/5A4LECBIjSMnMfAHTog95LJL27wAAAABJRU5ErkJggg=="/>
+</svg>
